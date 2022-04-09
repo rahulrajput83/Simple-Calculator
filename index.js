@@ -26,7 +26,7 @@
    let addNine = document.getElementById("9");
    let addZero = document.getElementById("0");
    let total = document.getElementById("=");
-   let Clear = document.getElementById("C");
+   let clear = document.getElementById("C");
 
 
  addOne.addEventListener("click", function () {
@@ -119,7 +119,7 @@
   });
 
 
-  Clear.addEventListener("click", function () {
+  clear.addEventListener("click", function () {
     let val = "";
     counter.innerText = val;
   });
