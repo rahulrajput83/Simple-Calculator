@@ -15,17 +15,17 @@
    let minus = document.getElementById("minus");
    let multiply = document.getElementById("multiply");
    let divide = document.getElementById("divide");
-   let addOne = document.getElementById("1");
-   let addTwo = document.getElementById("2");
-   let addThree = document.getElementById("3");
-   let addFour = document.getElementById("4");
-   let addFive = document.getElementById("5");
-   let addSix = document.getElementById("6");
-   let addSeven = document.getElementById("7");
-   let addEight = document.getElementById("8");
-   let addNine = document.getElementById("9");
-   let addZero = document.getElementById("0");
-   let total = document.getElementById("=");
+   let addOne = document.getElementById("one");
+   let addTwo = document.getElementById("two");
+   let addThree = document.getElementById("three");
+   let addFour = document.getElementById("four");
+   let addFive = document.getElementById("five");
+   let addSix = document.getElementById("six");
+   let addSeven = document.getElementById("seven");
+   let addEight = document.getElementById("eight");
+   let addNine = document.getElementById("nine");
+   let addZero = document.getElementById("zero");
+   let total = document.getElementById("equal");
    let clear = document.getElementById("C");
 
 
