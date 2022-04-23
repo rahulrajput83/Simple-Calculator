@@ -2,7 +2,7 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.top {
+#top {
     width: 100%;
     padding-top: 20px;
     color: navy;
@@ -11,16 +11,20 @@ body {
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 2px;
-    
+    position: relative;
+    animation: fadeIn 1s infinite;
 }
 
-.footer {
-    text-align: right;
+#footer {
+    width: 100%;
+    text-align: left;
     font-size: 12px;
     padding-top: 4rem;
     color: navy;
     letter-spacing: 1px;
     font-weight: bold;
+    position: fixed;
+    animation: slideIn 5s infinite;
 }
 
 .total-button {
@@ -29,21 +33,13 @@ body {
     font-weight: bold;
     text-align: right;
     word-wrap: break-word;
-    
-}
-
-.sub-button {
-    width: 250px;
-    font-size: 12px;
-    text-align: right;
-    margin-right: 50px;
-    margin-bottom: 0;
+    padding: 20px;
 }
 
 #calculator {
     width: 350px;
     height: auto;
-    border: 2px solid black;
+    background-color: #dfdfdf;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -64,14 +60,187 @@ body {
     width: 45px;
     height: 45px;
     font-size: 18px;
-    border-radius: 5px;
-    box-sizing: border-box;
-    border-color: black;
     font-weight: bold;
     text-align: center;
     color: black;
 }
 
-.btn:hover {
-    background: violet;
+#plus {
+  background-color: #495682;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#minus {
+  background-color: #20b2aa;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#multiply {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#divide {
+    background-color: #ffa500;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#one {
+  background-color: #eaedef;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#two {
+    background-color: #eaedef;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#three {
+    background-color: #eaedef;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#four {
+    background-color: #eaedef;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#five {
+    background-color: #eaedef;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#six {
+    background-color: #eaedef;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#seven {
+    background-color: #eaedef;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#eight {
+    background-color: #eaedef;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#nine {
+    background-color: #eaedef;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#zero {
+    background-color: #eaedef;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#equal {
+    background-color: #9477af;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#C {
+    background-color: #f08080;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 80%;
+    }
 }
